@@ -94,9 +94,7 @@
       
 
       position: relative;
-     
-      
-      
+    
     }
     
     .header .address a{
@@ -175,9 +173,10 @@
       transition-property: all;
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .nav__item:hover .block::after {
+    .accent::after {
       width: 100%; 
-    }
+    } 
+   
     a .nav__item {
       transition: all 3s cubic-bezier(0.4, 0, 0.2, 1);
     }
