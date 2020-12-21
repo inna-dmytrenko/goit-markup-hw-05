@@ -568,8 +568,9 @@
     }
     .footer__social  {
       display: flex;
-      flex-direction: column
-     
+      flex-direction: column;
+      margin-right: 93px;
+      
     }
     .footer__social-link {
       display: flex;
@@ -601,6 +602,62 @@
     .footer__social-list {
       display: flex;
       justify-content: space-between;
+    }
+    .mailing__title {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.143;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      padding-top: 12px;
+      margin-bottom: 20px;
+
+      color: #FFFFFF;
+    }
+    .mailing__email-input {
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      box-sizing: border-box;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+      border-radius: 4px;
+    }
+    .mailing__form {
+      display: flex;
+      
+    }
+    .mailing__email-input {
+      display: inline-block;
+      width: 322px;
+      padding: 14px 16px;
+      
+    }
+    .mailing__email {
+      margin-right: 12px;
+      
+    }
+    .mailing__btn {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.875;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.06em;
+      border: #2196F3;
+      cursor: pointer;
+
+      background: #2196F3;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+      border-radius: 4px;
+      
+      color: #FFFFFF;
+      width: 200px;
+    }
+    .mailing__icon {
+      width: 24px;
+      height: 24px;
+      fill: #FFFFFF;
+      padding-left: 10px;
     }
 
     
@@ -867,39 +924,42 @@
       background-position: 50% 50%;
       box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
       border-radius: 4px;
-      border: none;
+      border: 2px solid #2196F3;
       width: 18px;
       height: 17px;
       
-      
+      transition: all 250ms linear;
     }
     
     .modal__form-policy-text::before {
       display: inline-block;
-      padding-bottom: 0;     
+      margin-right: 9px;
+      vertical-align: text-top;
       width: 18px;
       height: 17px;
       box-sizing: border-box;
       border: 2px solid #212121;
-      border-radius: 2px;
-      /* outline: 2px solid #000; */
+      border-radius: 4px;
       
       content: "";
-      margin-right: 9px;
+      
       
     }
-      
-  
+    
     .modal__form-policy-text{
       cursor: pointer;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.714;
-    letter-spacing: 0.03em;
-    
-    margin-bottom: 20px;
-    padding-left: 54px;
-    color: #757575;
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.714;
+      letter-spacing: 0.03em;
+      
+      margin-bottom: 20px;
+      
+      color: #757575;
+   
     }
    
     
